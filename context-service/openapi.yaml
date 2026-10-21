@@ -1,0 +1,23 @@
+openapi: 3.1.0
+info:
+  title: Fraud Context Service
+  version: 0.1.0
+paths:
+  /health:
+    get:
+      summary: Health check
+  /v1/cases/{case_id}:
+    get:
+      summary: Case dossier with timeline and citations
+  /v1/customers/{party_id}/history:
+    get:
+      summary: 90-day customer history summary
+  /v1/stream/recent:
+    get:
+      summary: Recent simulated stream events
+  /v1/admin/stream/injection:
+    post:
+      summary: Enable or disable scripted stream injection
+  /v1/audit/turn:
+    post:
+      summary: Record agent turn for audit

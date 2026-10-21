@@ -1,0 +1,4 @@
+{"txn_id": "txn-00000001", "account_id": "acct-pty-retail-1001-1", "party_id": "pty-retail-1001", "amount_usd": 245.12, "channel": "card", "event_time": "2025-09-01T10:15:00Z"}
+{"txn_id": "txn-00000002", "account_id": "acct-pty-retail-1001-1", "party_id": "pty-retail-1001", "amount_usd": 89.0, "channel": "card", "event_time": "2025-10-14T22:10:00Z"}
+{"txn_id": "txn-00000003", "account_id": "acct-pty-retail-2044-1", "party_id": "pty-retail-2044", "amount_usd": 890.5, "channel": "wire", "event_time": "2025-10-14T19:00:00Z"}
+{"txn_id": "txn-00000004", "account_id": "acct-pty-smb-3301-1", "party_id": "pty-smb-3301", "amount_usd": 42000.0, "channel": "ach", "event_time": "2025-10-13T14:50:00Z"}

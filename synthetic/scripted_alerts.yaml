@@ -1,0 +1,16 @@
+# Windows applied when stream injection is enabled (Context Service + micro-batch reader)
+injection:
+  - window_id: inject-case-002-followup
+    case_id: CASE-002
+    alert_id: frd-live-case-002-001
+    typology: account_takeover_device
+    severity: high
+    offset_minutes_from_toggle: 0
+    narrative: "Synthetic live: new device login followed by wire initiation (scripted micro-batch)."
+  - window_id: inject-background-noise
+    case_id: null
+    alert_id: frd-live-bg-001
+    typology: ach_duplicate_micro
+    severity: low
+    offset_minutes_from_toggle: 5
+    narrative: "Synthetic background stream event (not tied to demo case)."

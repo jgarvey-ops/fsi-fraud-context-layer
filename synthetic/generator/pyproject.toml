@@ -1,0 +1,28 @@
+[project]
+name = "fraud-synthetic"
+version = "0.1.0"
+description = "Synthetic historic and replay data for FSI fraud context layer"
+requires-python = ">=3.11"
+dependencies = [
+  "click>=8.1",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.6",
+]
+
+[project.scripts]
+fraud-synthetic = "fraud_synthetic.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

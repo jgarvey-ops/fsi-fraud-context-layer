@@ -1,0 +1,3 @@
+{"party_id": "pty-retail-1001", "segment": "retail", "risk_tier": "medium", "display_name": "Synthetic Retail Customer 1001", "tax_id_token": "TIN-TOK-10001"}
+{"party_id": "pty-retail-2044", "segment": "retail", "risk_tier": "high", "display_name": "Synthetic Retail Customer 2044", "tax_id_token": "TIN-TOK-20404"}
+{"party_id": "pty-smb-3301", "segment": "smb", "risk_tier": "high", "display_name": "Synthetic SMB Customer 3301", "tax_id_token": "TIN-TOK-33001"}

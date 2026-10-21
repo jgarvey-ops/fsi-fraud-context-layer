@@ -1,0 +1,6 @@
+{
+  "demobank.fraud.silver_fraud_alerts@iceberg": {
+    "upstream": ["demobank.fraud.bronze_stream_raw@iceberg", "demobank.fraud.silver_transactions@iceberg"],
+    "downstream": ["demobank.fraud.gold_cases@iceberg"]
+  }
+}

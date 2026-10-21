@@ -1,0 +1,29 @@
+{
+  "tools": [
+    {
+      "name": "get_case",
+      "description": "Fetch case dossier, alerts, and timeline with citations",
+      "method": "GET",
+      "path": "/v1/cases/{case_id}"
+    },
+    {
+      "name": "get_customer_history",
+      "description": "90-day customer transaction summary",
+      "method": "GET",
+      "path": "/v1/customers/{party_id}/history?days=90"
+    },
+    {
+      "name": "get_recent_stream",
+      "description": "Recent simulated stream events from the lake",
+      "method": "GET",
+      "path": "/v1/stream/recent?limit=20"
+    },
+    {
+      "name": "log_agent_turn",
+      "description": "Append audit record for compliance",
+      "method": "POST",
+      "path": "/v1/audit/turn"
+    }
+  ],
+  "context_service_base_url": "http://localhost:8080"
+}
